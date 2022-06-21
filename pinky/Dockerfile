@@ -1,8 +1,8 @@
 FROM quay.io/lyfe00011/test:beta
-# FROM blackamda/queenamdi:public
-# FROM ravindu01manoj/sewqueen:lovegift
+# FROM malsha
+# FROM white shadow sl
 
-RUN git clone https://github.com/zeqanpx/Queen_Jennifer.git /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/whiteshadowofficial/meta-project-test.git /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 RUN yarn install --no-audit
 RUN git clone https://github.com/AiDarkEzio/medias.git
